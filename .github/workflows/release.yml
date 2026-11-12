@@ -1,0 +1,27 @@
+# Когда в репозиторий кладут новый moy-ritm.apk, публикуем его как релиз.
+# Ссылка для скачивания всегда одна и та же:
+# https://github.com/morgunovaja-gif/moy-ritm-download/releases/latest/download/moy-ritm.apk
+name: Опубликовать версию
+
+on:
+  push:
+    branches: [main]
+    paths: [moy-ritm.apk]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Выложить APK
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ github.run_number }}
+          name: Версия ${{ github.run_number }}
+          body: Скачайте moy-ritm.apk и установите. Обновление ставится поверх старой версии, данные сохраняются.
+          files: moy-ritm.apk
+          make_latest: true
