@@ -1,5 +1,5 @@
 {
-  "build": 32,
-  "notes": "Главный экран: фраза дня крупно и подсказка на день, отдельный «Дневник энергии» с заметкой и идеями, еда выше, «Желательные дела на сегодня» ниже",
+  "build": 33,
+  "notes": "Дневник энергии, шаги и вода стали компактнее",
   "url": "https://github.com/morgunovaja-gif/moy-ritm-download/releases/latest/download/moy-ritm.apk"
 }
