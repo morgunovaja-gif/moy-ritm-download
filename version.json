@@ -1,5 +1,5 @@
 {
-  "build": 34,
-  "notes": "Новая вкладка «Рецепты»: копилка рецептов из интернета, рецепт дня и разбор недели",
+  "build": 35,
+  "notes": "Если фото еды не получится — в сообщении будет видна точная причина",
   "url": "https://github.com/morgunovaja-gif/moy-ritm-download/releases/latest/download/moy-ritm.apk"
 }
