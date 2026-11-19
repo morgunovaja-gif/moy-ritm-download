@@ -1,5 +1,5 @@
 {
-  "build": 36,
-  "notes": "Новая вкладка «Лайфхаки» — копилка бытовых советов: стирка, уборка, кухня",
+  "build": 37,
+  "notes": "Обновление теперь само пробует ещё раз, а если не выйдет — предложит скачать через браузер",
   "url": "https://github.com/morgunovaja-gif/moy-ritm-download/releases/latest/download/moy-ritm.apk"
 }
